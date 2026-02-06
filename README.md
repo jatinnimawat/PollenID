@@ -1,4 +1,4 @@
-# 🌿 Pollen ID - AI-Powered Pollen Intelligence Platform
+# Pollen ID - AI-Powered Pollen Intelligence Platform
 
 A production-ready MVP that combines real-time pollen data from Google's Pollen API with AI-driven health insights and LSTM-based forecasting.
 
@@ -6,16 +6,16 @@ A production-ready MVP that combines real-time pollen data from Google's Pollen 
 ![Python: 3.9+](https://img.shields.io/badge/Python-3.9+-green.svg)
 ![Framework: Streamlit](https://img.shields.io/badge/Framework-Streamlit-red.svg)
 
-## 🎯 Features
+## Features
 
-- **📊 Real-Time Pollen Tracking**: Live pollen indices (Grass, Tree, Weed) via Google Pollen API
-- **🤖 AI-Powered Forecasting**: LSTM-simulated 7-day predictions with interactive visualizations
-- **💬 Health Assistant**: RAG-based chat interface using GPT-4o for personalized health advice
-- **📈 Advanced Analytics**: Risk assessment, trend analysis, and distribution charts
-- **🎨 Professional UI**: Financial services-grade design with Tailwind-inspired color palette
-- **📱 Responsive Design**: Optimized for desktop and mobile devices
+- **Real-Time Pollen Tracking**: Live pollen indices (Grass, Tree, Weed) via Google Pollen API
+- **AI-Powered Forecasting**: LSTM-simulated 7-day predictions with interactive visualizations
+- **Health Assistant**: RAG-based chat interface using GPT-4o for personalized health advice
+- **Advanced Analytics**: Risk assessment, trend analysis, and distribution charts
+- **Professional UI**: Financial services-grade design with Tailwind-inspired color palette
+- **Responsive Design**: Optimized for desktop and mobile devices
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -48,7 +48,7 @@ streamlit run app.py
    - Enter a location (zip code or city name)
    - Click "Analyze Pollen Levels"
 
-## 🌐 Deploying to Streamlit Cloud
+## Deploying to Streamlit Cloud
 
 ### Step 1: Prepare Your Repository
 
@@ -85,7 +85,7 @@ google_api_key = st.secrets.get("GOOGLE_API_KEY", "")
 openai_api_key = st.secrets.get("OPENAI_API_KEY", "")
 ```
 
-## 🔑 API Key Setup
+## API Key Setup
 
 ### Google Pollen API
 
@@ -107,7 +107,7 @@ openai_api_key = st.secrets.get("OPENAI_API_KEY", "")
 
 **Cost Estimate**: The Health Assistant uses GPT-4o, which costs approximately $0.01-0.02 per conversation turn.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 pollen-id/
@@ -120,7 +120,7 @@ pollen-id/
     └── config.toml       # Streamlit configuration (optional)
 ```
 
-## 🧩 Architecture Overview
+## Architecture Overview
 
 ### Data Flow
 
@@ -171,7 +171,7 @@ Data Processing (pandas)
    - Dual-axis for historical vs. forecast
    - Color-coded risk levels
 
-## 🎨 UI/UX Design
+## UI/UX Design
 
 ### Color Palette
 
@@ -189,7 +189,7 @@ Data Processing (pandas)
 - **Accessibility**: High contrast ratios, readable fonts
 - **Responsiveness**: Mobile-first design approach
 
-## 🔧 Customization Guide
+## Customization Guide
 
 ### Adding Your Own LSTM Model
 
@@ -238,7 +238,7 @@ If Google adds new pollen types, update:
 2. Visualization functions: Add to `pollen_types` list
 3. Color mappings: Define new colors
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -263,7 +263,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 ```
 
-## 📊 Performance Optimization
+## Performance Optimization
 
 ### For Large-Scale Deployments
 
@@ -284,7 +284,7 @@ import sqlite3
 
 4. **CDN for Static Assets**: Host images/CSS externally
 
-## 🧪 Testing
+## Testing
 
 ### Manual Testing Checklist
 
@@ -313,7 +313,7 @@ def test_risk_level():
     assert risk == "High"
 ```
 
-## 📈 Roadmap
+## Roadmap
 
 - [ ] User authentication and personalized dashboards
 - [ ] Email/SMS alerts for high pollen days
@@ -323,7 +323,7 @@ def test_risk_level():
 - [ ] Export reports to PDF
 - [ ] Mobile app (React Native)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -333,11 +333,11 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Google Pollen API**: For providing comprehensive pollen data
 - **OpenAI**: For GPT-4o and AI capabilities
